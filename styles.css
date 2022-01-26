@@ -1,0 +1,57 @@
+body {
+    background: url(/images/bg-desktop.svg), hsl(257, 40%, 49%);
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+#logo {
+    padding: 2rem 0 0 5.5rem;
+    height: 3rem;
+}
+
+header {
+    margin-bottom: 2rem;
+}
+
+#landing-flex {
+    width: 90%;
+    margin: 4rem auto;
+    display: flex;
+}
+
+#landing-img {}
+
+#landing-info {
+    padding: 0.75rem 3rem;
+}
+
+#landing-info>h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+
+#landing-info>p {
+    font-size: 1.2rem;
+    margin-bottom: 2.5rem;
+}
+
+#landing-info>a {
+    background-color: white;
+    padding: 1rem 4.5rem;
+    color: hsl(257, 40%, 49%);
+    border-radius: 36px;
+    box-shadow: 2px 2px 8px hsl(0, 0%, 21%);
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+#flex-footer {
+    display: flex;
+}
